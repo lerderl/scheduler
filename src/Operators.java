@@ -30,5 +30,36 @@ public class Operators {
 //    Challenge
     product *= 10;
     System.out.println("Product is now " + product);
+
+
+//    RELATIONAL OPERATORS
+    boolean myBool = true;
+    boolean myBool2 = false;
+    int myAge = 37;
+    int yourAge = 18;
+    int bobAge = 27;
+
+    System.out.println("myBool is " + myBool);
+    System.out.println("myBool2 is " + myBool2);
+
+    boolean ageCompare = myAge > bobAge;
+    System.out.println("Is my age > bob's age?: " + ageCompare);
+
+    ageCompare = yourAge < bobAge;
+    System.out.println("Is your age < bob's age?: " + ageCompare);
+
+    ageCompare = yourAge == bobAge;
+    System.out.println("Is your age == bob's age?: " + ageCompare);
+
+    String myString = "Hello";
+    String myString2 = "Hello";
+
+    boolean nameCompare = myString.equals(myString2);
+    System.out.println("Is myString == myString2?: " + nameCompare);
+
+//    Challenge
+    int currentAge = 19;
+    boolean isMyCurrentAgeGreaterThanOrEqualTo21 = currentAge >= 21;
+    System.out.println("Is myCurrentAge >= 21?: " + isMyCurrentAgeGreaterThanOrEqualTo21);
   }
 }
