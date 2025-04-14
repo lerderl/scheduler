@@ -61,5 +61,19 @@ public class Operators {
     int currentAge = 19;
     boolean isMyCurrentAgeGreaterThanOrEqualTo21 = currentAge >= 21;
     System.out.println("Is myCurrentAge >= 21?: " + isMyCurrentAgeGreaterThanOrEqualTo21);
+
+
+//    LOGICAL OPERATORS
+    boolean isRaining = true;
+    boolean isWindy = true;
+
+    boolean combined = isRaining && isWindy;
+    System.out.println("Is it raining and windy?: " + combined);
+
+    combined = isRaining || isWindy;
+    System.out.println("Is it raining or windy?: " + combined);
+
+    combined = !isRaining;
+    System.out.println("Is it NOT raining?: " + combined);
   }
 }
